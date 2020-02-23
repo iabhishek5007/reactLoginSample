@@ -1,2 +1,6 @@
-# reactLoginSample
-login page sample using react
+```
+> npm install
+> npm start
+
+```
+![](/img.png)

@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0%;
+  color: white;
+  display: inline-flex;
+}
+
+.div1 {
+  padding: 50px;
+  width: 65%;
+  background-image: url(./back.png);
+  background-repeat: repeat;
+  background-size: 100% 100%;
+}
+
+.div2 {
+  padding: 20px;
+  width: 35%;
+  background-color: #20222b;
+}
+
+h4 {
+  padding: 20px;
+  padding-top: 25px;
+}
+
+h2 {
+  padding: 20px;
+}
+
+p {
+  padding: 20px;
+  padding-top: 35px;
+  width: 60%;
+  line-height: 1.3;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: #30323b;
+  box-sizing: border-box;
+}
+
+.lb1 {
+  margin: 15px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  width: 100%;
+  padding: 14px 20px;
+  margin: 15px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+#p1 {
+  margin: 20px;
+}
+
+.container1 {
+  padding: 60px;
+}
+
+
+.lb2 {
+  padding: 15px;
+  margin: 25px;
+  text-align: center;
+  color: rgb(81, 162, 228);
+  /* justify-content: center; */
+
+}
+
+/* @media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+} */
